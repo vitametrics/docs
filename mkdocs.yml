@@ -1,0 +1,46 @@
+site_name: Vitametrics Documentation
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - header.autohide
+  logo: img/logo.webp
+  repo: fontawesome/brands/git-alt
+plugins:
+  - glightbox
+markdown_extensions:
+  - attr_list
+  - md_in_html
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/vitametrics
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/company/vitametrics
+  generator: false
+  # consent:
+  #   title: Cookie consent
+  #   description:
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+
+copyright: Copyright © 2024 Vitametrics Team
+repo_url: https://github.com/vitametrics/vitametrics
+repo_name: vitametrics/vitametrics
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Installation: getting-started/installation.md
+  - User Guide:
+    - Overview: user-guide/overview.md
+    - Roles: user-guide/roles.md
+    - Project Structure: user-guide/project-structure.md
+  - Development:
+    - Project Structure: development/project-structure.md
+    - Contribution: development/contribution.md
+  - Changelog: changelog.md
+  - About: about.md
